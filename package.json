@@ -1,0 +1,19 @@
+{
+  "name": "alkemychallenge",
+  "version": "1.0.0",
+  "description": "Disney Api para desafío de Alkemy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vogeln7/alkemyChallenge.git"
+  },
+  "author": "vn7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vogeln7/alkemyChallenge/issues"
+  },
+  "homepage": "https://github.com/Vogeln7/alkemyChallenge#readme"
+}
