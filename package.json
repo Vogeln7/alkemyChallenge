@@ -3,7 +3,21 @@
   "version": "1.0.0",
   "description": "Disney Api para desafío de Alkemy",
   "main": "app.js",
+  "dependencies": {
+    "@types/sequelize": "^4.28.11",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.3.3",    
+    "sequelize": "^6.15.0",
+    "@sendgrid/mail": "^7.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
   "scripts": {
+    "start": "node app",
+    "start-dev": "nodemon app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
